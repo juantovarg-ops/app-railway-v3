@@ -1,4 +1,4 @@
-# 🔍 Smart Product Search
+# Smart Product Search
 
 Búsqueda semántica de productos sin dependencias externas complicadas.
 
