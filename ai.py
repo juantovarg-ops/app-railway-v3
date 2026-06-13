@@ -1,12 +1,12 @@
 import os, redis, json, hashlib
-from google import genai
+import google.generativeai as genai
 from google.genai import types
 
 _gclient = None
 _redis   = None
 
 EMBED_MODEL = "text-embedding-004"
-GEN_MODEL   = "gemini-2.0-flash"
+GEN_MODEL   = "gemini-flash-latest"
 
 
 def _gc():
